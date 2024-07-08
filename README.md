@@ -4,7 +4,7 @@
 
 This repository contains code related to the paper “ATSumm: Auxiliary information enhanced approach for abstractive disaster Tweet Summarization with sparse training data (KBS) journal, 2024.
 
-The code has been developed using python 2.7, and Tensorflow 1.4. This implementation is based on code releases related to Pointer-Generator Networks and the TextSum project.
+The code has been developed using python 2.7. This implementation is based on code releases related to Pointer-Generator Networks and the TextSum project.
 
 # Dataset 
 For training, we use the ARIES dataset, which contains 7500 training samples along with their ground-truth summaries. For evaluation, we used 13 disaster events from different locations and types.
