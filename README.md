@@ -12,7 +12,7 @@ We have considered 13 different disaster events from four different continents: 
 
 For more details --- please go through the paper!!
 
-The code was developed using Python 2.7. This implementation is based on code releases related to Pointer-Generator Networks and the TextSum project.
+This implementation is based on code releases related to Pointer-Generator Networks and the TextSum project. Please find all the dependencies of this executable code in Dependency.txt file.  
 
 # Key-phrase Information
 
