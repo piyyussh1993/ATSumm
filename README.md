@@ -37,6 +37,20 @@ If you are using the dataset of this paper, kindly cite the following article:
 
 }
 
+**Train**
 
+In order to train the ATSumm model, you may run:
 
+python run_summarization.py --mode=train --data_path=/path/to/chunked/train_* --vocab_path=/path/to/vocab --log_root=/path/to/a/log/directory --exp_name=myexperiment
 
+This will create a subdirectory of your specified log_root called myexperiment, where all checkpoints will be saved. Then, the model will start training using the train_*.bin files as training data.
+
+**Decoding**
+
+As stated in the paper, key-phrase information was used at test time with input. In order to decode, we used the auxiliary pointer-generator model code here, you may run:
+
+python run_summarization.py --mode=decode --data_path=/path/to/chunked/val_* --vocab_path=/path/to/vocab --log_root=/path/to/a/log/directory --exp_name=myexperiment
+
+Please note that one should run the above command using the same settings entered for the training job (plus any decode mode-specific flags like beam_size). You may also give this information within the run_summarization.py file itself. 
+
+This will repeatedly load random examples from your specified datafile and generate a summary using beam search. The results will be printed to screen.
