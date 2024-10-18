@@ -44,10 +44,15 @@ For training, we use the ARIES dataset, which contains 7500 training samples alo
 If you are using the dataset of this paper, kindly cite the following article:
 
 @article{garg2024atsumm,
+  
   title={ATSumm: Auxiliary information enhanced approach for abstractive disaster Tweet Summarization with sparse training data},
+  
   author={Garg, Piyush Kumar and Chakraborty, Roshni and Dandapat, Sourav Kumar},
+  
   journal={arXiv preprint arXiv:2405.06541},
+  
   year={2024}
+
 }
 
 
