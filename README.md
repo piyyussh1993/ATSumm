@@ -20,24 +20,6 @@ The DRAKE model is used to identify the key phrase and the importance score of e
 
 Piyush Kumar Garg, R Chakraborty, S Gupta, SK Dandapat, IKDSumm: Incorporating key-phrases into BERT for extractive disaster tweet summarization, Computer Speech & Language (2024). DOI: https://doi.org/10.1016/j.csl.2024.101649
 
-@article{garg2024ikdsumm,
-  
-  title={IKDSumm: Incorporating key-phrases into BERT for extractive disaster tweet summarization},
-  
-  author={Garg, Piyush Kumar and Chakraborty, Roshni and Gupta, Srishti and Dandapat, Sourav Kumar},
-  
-  journal={Computer Speech \& Language},
-  
-  volume={87},
-  
-  pages={101649},
-  
-  year={2024},
-  
-  publisher={Elsevier}
-
-}
-
 # Dataset 
 For training, we use the ARIES dataset, which contains 7500 training samples along with their ground-truth summaries. For evaluation, we used 13 disaster events from different locations and types. We have prepared the ground truth summaries following the instructions detailed in the paper. 3 graduate students participated in this task. If you need ground truth summaries and ARIES training data, kindly send an email to piyush_2021cs05@iitp.ac.in. 
 
