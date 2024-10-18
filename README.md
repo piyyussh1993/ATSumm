@@ -2,7 +2,14 @@
 
 # ATSumm: Auxiliary information enhanced approach for abstractive disaster Tweet Summarization with sparse training data
 
-This repository contains code related to abstractive disaster tweet summarization. Our KBS paper “ATSumm: Auxiliary information enhanced approach for abstractive disaster Tweet Summarization with sparse training data" consists of two phases --------- 1. extractive phase, where we extract the most important tweets from input tweets, and 2. abstractive phase, where we aim to construct a sentence summary from extracted tweets considering only most important information in a concise way. We have considered 13 different disaster events from four different continents: USA, Asia, Oceania, and Europe. These events belong to both the natural and man-made disaster types. This dataset considers earthquake, Typhoon, Flood, Blast, Shooting, Cyclone, Wildfire, and Hurricane in this paper. Dataset CSV contains Tweet-text and ground truth summaries used in this project. The codes directory contains codes and a README containing detailed details and information about how to run those codes.
+This repository contains code related to abstractive disaster tweet summarization. Our KBS paper “ATSumm: Auxiliary information enhanced approach for abstractive disaster Tweet Summarization with sparse training data" consists of two phases:
+
+1. Extractive phase, where we extract the most important tweets from input tweets, and
+
+2. Abstractive phase, where we aim to construct a sentence summary from extracted tweets considering only most important information in a concise way.
+
+We have considered 13 different disaster events from four different continents: USA, Asia, Oceania, and Europe. These events belong to both the natural and man-made disaster types. This dataset considers earthquake, Typhoon, Flood, Blast, Shooting, Cyclone, Wildfire, and Hurricane in this paper. Dataset CSV contains Tweet-text and ground truth summaries used in this project. The codes directory contains codes and a README containing detailed details and information about how to run those codes.
+
 For more details --- please go through the paper!!
 
 The code was developed using Python 2.7. This implementation is based on code releases related to Pointer-Generator Networks and the TextSum project.
