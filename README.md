@@ -37,7 +37,7 @@ If you are using the dataset of this paper, kindly cite the following article:
 
 }
 
-**Train**
+# **Train**
 
 In order to train the ATSumm model, you may run:
 
@@ -45,7 +45,7 @@ python run_summarization.py --mode=train --data_path=/path/to/chunked/train_* --
 
 This will create a subdirectory of your specified log_root called myexperiment, where all checkpoints will be saved. Then, the model will start training using the train_*.bin files as training data.
 
-**Decoding**
+# **Decoding**
 
 As stated in the paper, key-phrase information was used at test time with input. In order to decode, we used the auxiliary pointer-generator model code here, you may run:
 
